@@ -6,4 +6,5 @@ delete t1 from book_data t1 inner join book_data t2 where t1.id<t2.id and t1.cha
 ```
 参数详解:
 delete t1 from 表名 t1 inner join 表名 t2 where t1.id<t2.id and t1.重复字段=t2.重复字段;
+这里的t1.id和t2.id是表的主键id,例如id小的和id大的重复了,删除id小的那条
 
