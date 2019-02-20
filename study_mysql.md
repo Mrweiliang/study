@@ -9,3 +9,4 @@ delete t1 from book_data t1 inner join book_data t2 where t1.id<t2.id and t1.cha
 * 这里的t1.id和t2.id是表的主键id,例如id小的和id大的重复了,删除id小的那条
 * t1,t2为表的临时名称
 
+--------
